@@ -19,6 +19,8 @@ return [
 
     'default' => env('LOG_CHANNEL', 'stack'),
 
+    'log' => env('APP_LOG', 'daily'),
+
     /*
     |--------------------------------------------------------------------------
     | Deprecations Log Channel
